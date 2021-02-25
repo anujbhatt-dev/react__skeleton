@@ -1,0 +1,21 @@
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  &__brandLogo{
+
+  }
+  &__items{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    &_item{
+       margin: 1rem 2rem;
+       padding:1rem 2rem;
+       text-decoration: none;
+       color: black;
+       border-radius: 18px;
+    }
+  }
+}

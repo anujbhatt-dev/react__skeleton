@@ -7,4 +7,19 @@
 @import "styles/base/base";
 @import "styles/base/utils";
 
-//sass-components
+
+// <--sass-components-->
+
+//fixed
+@import "styles/sass-components/fixed/footer";
+@import "styles/sass-components/fixed/gototop";
+@import "styles/sass-components/fixed/navigation";
+
+//about
+@import "styles/sass-components/about/about";
+
+//contact
+@import "styles/sass-components/contact/contact";
+
+//landing
+@import "styles/sass-components/landing/landing";

@@ -1,4 +1,5 @@
 import React,{Component} from "react"
+import Layout from "./components/layout/layout"
 import './App.scss';
 
 class App extends Component{
@@ -7,7 +8,7 @@ class App extends Component{
 
     return (
       <div className="App">
-          react skeleton is ready
+          <Layout/>
       </div>
     );
   }
